@@ -1,11 +1,14 @@
-Algoritmo sin_titulo
+Algoritmo bisies_to
 	definir i Como Entero
 	
 	para i=1990 hasta 2040 
-		Mostrar i
 		si i mod 4 = 0
-			Mostrar i " El año es bisiesto"
+			Mostrar i " es bisiesto" 
+		SiNo
+			Mostrar i 
 		FinSi
+		Mostrar ""
 	FinPara
+	
 	
 FinAlgoritmo

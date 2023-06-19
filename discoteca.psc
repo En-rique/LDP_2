@@ -9,15 +9,17 @@ Algoritmo discoteca
 	Mostrar ""
 	
 	Mostrar "Qué tipo de boletos desea comprar? "
-	Mostrar "Si quiere los boletos vip, presione (V) "
-	Mostrar "Si quiere los boletos preferenciales, presione (P) "
-	Mostrar "Si quiere los boletes generales, presione (G) "
+	Mostrar "Si quiere los boletos vip con un costo de $500, presione (V) "
+	Mostrar "Si quiere los boletos preferenciales con un costo $300, presione (P) "
+	Mostrar "Si quiere los boletes generales con un costo de $150, presione (G) "
 	leer boleto
 	
 	Mostrar ""
 	
 	Mostrar "Cuántos boletos desea comprar? " Sin Saltar
 	leer cant
+	
+	Limpiar Pantalla
 	
 	boleto=Mayusculas(boleto)
 	
@@ -40,11 +42,7 @@ Algoritmo discoteca
 		Mostrar "No puede comprar menos de 1 boleto "
 	FinSi
 	
-	Mostrar ""
-	
 	total=cant*precio
-	
-	Mostrar ""
 	
 	Mostrar "El tipo de boleto seleccionado es: " boleto
 	Mostrar "La cantidad de boletos es: " cant
